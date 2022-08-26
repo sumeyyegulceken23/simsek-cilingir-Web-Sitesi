@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ŞİMŞEK ÇİLİNGİR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbars">
+      <div class="container">
+        <a class="navbar-brand" href="anasayfa.html">ŞİMŞEK ÇİLİNGİR</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="anasayfa.html">ANA SAYFA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hakkimizda.html">HAKKIMIZDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hizmetlerimiz.html">HİZMETLERİMİZ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="back-grd">
+
+
+<section id="secondmain">
+ 
+    <div class="row" id="headerofcards">
+      <h1 >HİZMETLERİMİZ</h1>
+    </div>
+  <div class="row">
+      <div class="col-sm-12 col-md-4  mb-5">
+        <div class="card" style="width: 100%; height: 100%;">
+         <a href="foto.html/k2.jpg"><img src="foto.html/k2.jpg" class="card-img-top" alt="..."></a>           
+              <a href="{% url 'oto_garaj_sistemleri' %}" class="btn btn-primary" id="buttonline">EV KİLİDİ AÇMA <div class="arrow">
+             
+            </div> </a>
+        </div> 
+      </div> 
+      <div class="col-sm-12 col-md-4 mb-5">
+          <div class="card" style="width: 100%; height: 100%;">
+            <a href="foto.html/k3.jpg"><img src="foto.html/k3.jpg" class="card-img-top" alt="..."></a>            
+                <a href="{% url 'rayli_pergola' %}" class="btn btn-primary" id="buttonline">EV KİLİDİ DEĞİŞİMİ<div class="arrow">
+                
+              </div> </a>
+             
+        </div> 
+      </div>
+      <div class="col-sm-12 col-md-4 mb-5">
+          <div class="card" style="width: 100%; height: 100%;">
+            <a href= "foto.html/k4.jpg"><img src="foto.html/k4.jpg"  class="card-img-top" alt="..."></a>            
+                <a href="{% url 'tente_hizmetleri' %}" class="btn btn-primary" id="buttonline">Yedek anahtar yapma  <div class="arrow">
+                
+              </div> </a>             
+          </div>   
+      </div>
+  </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-4 mb-5">
+        <div class="card" style="width: 100%; height: 100%;">
+          <a href="foto.html/k5.jpg"><img src="foto.html/k5.jpg" class="card-img-top" alt="..."></a>            
+              <a href="{% url 'zip_perde' %}" class="btn btn-primary" id="buttonline">Oto araç kilidi açma <div class="arrow">
+
+            </div> </a>
+        </div> 
+      </div> 
+        <div class="col-sm-12 col-md-4 mb-5">
+          <div class="card" style="width: 100%; height: 100%;">
+            <a href="foto.html/k7.jpg"><img src="foto.html/k7.jpg" class="card-img-top" alt="..."></a>         
+                <a href="{% url 'yarasa_germe_sistemleri' %}" class="btn btn-primary" id="buttonline">Ofis kilidi açma<div class="arrow">
+                
+              </div> </a>
+             
+        </div> 
+        </div>
+        <div class="col-sm-12 col-md-4 mb-5">
+          <div class="card" style="width: 100%; height: 100%;">
+            <a href="foto.html/k8.jpg"><img src="foto.html/k8.jpg" class="card-img-top" alt="..."></a>       
+                <a href="{% url 'semsiyeler' %}" class="btn btn-primary" id="buttonline">Çelik kasa hizmeti <div class="arrow">
+                
+              </div> </a>
+             
+        </div>   
+        </div>
+    </div>
+
+
+
+  
+    
+    
+    
+
+    
+
+</section>
+
+</div>
+
+
+<footer class="footer">
+    <div class="l-footer">
+    <h1>
+    <img src="{% static 'img/logo.jpg' %}" alt=""></h1>
+    <p>
+        HER ZAMAN DAHA İYİSİ
+    </div>
+    <ul class="r-footer">
+    <li class="features">
+      <h2>HİZMETLERİMİZ</h2>
+    <ul class="box h-box">
+      <li><a href="#">Kilit açma değiştirme</a></li>
+      <li><a href="#">Oto çilingir</a></li>
+      <li><a href="#">Çelik kasa hizmeti</a></li>
+      <li><a href="#">İmmobilizer anahtar</a></li>
+      <li><a href="#">Oto anahtar </a></li>
+      <li><a href="#">Korumalı sistem</a></li>
+    </ul>
+    </li>
+    <li>
+      <h2 id="iletisim">İLETİŞİM</h2>
+    <ul class="box">
+      <li><a href="#">Telefon: 0555 176 60 75 </a></li>
+      <li><a href="#">E-mail: alparslansimsek7@gmail.com </a></li>
+      <li><a href="#">İstanbul</a></li>
+    </ul>
+    </li>
+    </ul>
+    </footer>
+    
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    
+    
+    </body>
+    </html>
